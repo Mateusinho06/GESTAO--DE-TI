@@ -3,7 +3,7 @@ SET status = 'Em andamento’;
 CREATE TABLE desenvolvedores 
 (  id INT AUTO_INCREMENT PRIMARY KEY,  
 nome VARCHAR(100),  senioridade  
-VARCHAR(30),  id_projeto INT,   
+VARCHAR(30),  id_projeto INT,  
 CONSTRAINT fk_projeto   
 FOREIGN KEY (id_projeto)   
 REFERENCES projetos(id
